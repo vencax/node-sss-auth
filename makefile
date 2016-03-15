@@ -10,3 +10,6 @@ deploy:
 	heroku create
 	heroku addons:create heroku-postgresql:hobby-dev
 	heroku addons:create sendgrid:starter
+	NOW=`date`
+	SECRET=`echo -n $NOW | openssl dgst -sha256`
+	heroku config:set SERVER_SECRET=$SECRET

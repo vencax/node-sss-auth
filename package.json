@@ -9,7 +9,11 @@
   },
   "repository": "https://github.com/vencax/node-sss-auth.git",
   "homepage": "https://github.com/vencax/node-sss-auth",
-  "keywords": ["auth", "simple", "userman"],
+  "keywords": [
+    "auth",
+    "simple",
+    "userman"
+  ],
   "dependencies": {
     "basic-userman": "git+https://github.com/vencax/node-basic-userman.git",
     "body-parser": "^1.14.1",
@@ -18,6 +22,7 @@
     "express": "^4.11.1",
     "mkdirp": "^0.5.1",
     "pg": "^4.4.3",
+    "sendgrid": "^2.0.0",
     "sequelize": "^3.14.2",
     "spa-auth": "git+https://github.com/vencax/node-spa-auth.git",
     "underscore": "^1.8.3"

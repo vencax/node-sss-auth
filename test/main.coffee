@@ -10,6 +10,7 @@ process.env.ADMINS_GID = 1
 process.env.EMAIL_TRANSPORTER_USER = 'pipin@shire.nz'
 process.env.CURRENCY='CZK'
 process.env.BANK_ACCOUNT='11112222333/1234'
+process.env.DEFAULT_GID = 2
 # process.env.DATABASE_URL = 'sqlite://db.sqlite'
 
 ctx =

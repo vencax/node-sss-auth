@@ -2,7 +2,7 @@
   "name": "sss-auth",
   "title": "super simple spa auth app",
   "description": "",
-  "version": "0.1.0",
+  "version": "0.7.0",
   "private": false,
   "author": {
     "name": "Vaclav Klecanda <vencax77@gmail.com>"

@@ -5,6 +5,8 @@ module.exports = (db) ->
   _createPassword = (passwd)->
     return crypto.createHmac('sha256', passwd).digest('hex')
 
+  createPasswordHash: _createPassword
+
   find: (body, done) ->
     cond = []
     if body.username
